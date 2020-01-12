@@ -1,5 +1,5 @@
  document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://live-t1.clipmyhorse.tv/live/smil:adaptive.smil/playlist.m3u8?W563lCW79mEvfgunZtDRvxiVgwHde-1ZHeHd5kxzJeP1j68HTyZSBv-i1s5t1DJ0';
+  const source = 'https://live-t2.clipmyhorse.tv/live/smil:adaptive.smil/playlist.m3u8?W563lCW79mEvfgunZtDRvxiVgwHde-1ZHeHd5kxzJeP1j68HTyZSBv-i1s5t1DJ0';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
