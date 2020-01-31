@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	
 	// For more options see: https://github.com/sampotts/plyr/#options
 	// captions.update is required for captions to work with hls.js
-	const player = new Plyr(video, {captions: {active: true, update: true, language: 'en'}});
+	const player = new Plyr(video, {autoplay: true});
 	
 	if (!Hls.isSupported()) {
 		video.src = source;
